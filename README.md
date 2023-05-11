@@ -34,6 +34,8 @@ The project uses the Data Vault modeling approach due to the following reasons:
 - Reduce 3NF complexity: The existing data links are typically modeled by a third normal form model, which might result in a solution that is rather rigid and requires a lot of rework as new sources are added.
 - Historical management and raw data persistence: The Data Vault model is perfect for historical management and raw data persistence.
 
+![This diagram depicts the Data Vault model for the airline company data warehouse project. The model includes various hubs, links, and satellites that represent the business entities and relationships in the airline system. The hubs represent the core business concepts, such as passengers, flights, and airplanes. The links represent the relationships between the hubs, such as bookings, upgrades, and cancellations. The satellites represent the descriptive or context information related to the hubs or links, such as flight details, passenger details, and loyalty program transactions.](AIRLINE_SYSTEM_DV.png "Airline System Data Vault Diagram")
+
 ### Dimensions
 
 | Dimension | Description |
@@ -61,6 +63,9 @@ The project uses the Data Vault modeling approach due to the following reasons:
 | Loyalty fact | Fact table for loyalty program transactions |
 | Staying fact | Fact table for hotel bookings |
 | Factless table | Factless table used for checking, car rent, report inquiry, report accident, and maintenance |
+
+
+![This diagram illustrates the dimensions and fact tables for the Airline Company Data Warehouse Project. The dimensions represent the various business entities that are used to analyze the flight activity and reservation processes of the airline company. These entities include date, passenger, flight, airplane, pilot, crew, agency, website, promotion, hotel, FQ, inquiry, staff, and points redeeming key. The fact tables capture the various business events and metrics that provide insights into the company's performance, such as bookings, loyalty program transactions, hotel bookings, and other business processes.](AIRLINE_D&F.png "Airline System Dimensions and Fact Tables Diagram")
 
 ## Conclusion
 
