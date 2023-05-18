@@ -1,4 +1,6 @@
 # Airline Company Data Warehouse Project
+[![Language Badge](https://img.shields.io/badge/Language-SQL-4479a1.svg)](https://en.wikipedia.org/wiki/SQL)
+[![License Badge](https://img.shields.io/badge/License-CC%20BY--NC%204.0-0a2c46.svg)](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 This project focuses on analyzing the flight activity and reservation processes of a major airline company. The aim of the project is to support decision-making by providing insights into the company's business processes.
 
